@@ -16,13 +16,20 @@ body {
 .titulo {
   text-align: center;
   color: #1e88e5;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
+}
+
+.contador {
+  text-align: center;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 20px;
 }
 
 .formulario {
   display: flex;
   gap: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .input-texto {
@@ -45,6 +52,13 @@ body {
   padding: 10px 14px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.mensaje-error {
+  color: #e53935;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
 .lista {
