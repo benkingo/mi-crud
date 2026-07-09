@@ -1,0 +1,65 @@
+.App {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #1e88e5;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 10px 16px;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+li button {
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+li button:first-of-type {
+  background-color: #43a047;
+  color: white;
+}
+
+li button:last-of-type {
+  background-color: #e53935;
+  color: white;
+}
