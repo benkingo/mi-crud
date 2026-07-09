@@ -40,7 +40,8 @@ body {
   font-size: 16px;
 }
 
-.input-texto:focus {
+.input-texto:focus,
+.input-buscar:focus {
   outline: none;
   border-color: #1e88e5;
 }
@@ -59,6 +60,27 @@ body {
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 15px;
+}
+
+.input-buscar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.btn-borrar-todo {
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: #6d4c41;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .lista {
@@ -82,9 +104,24 @@ body {
   color: #1f2937;
 }
 
+.completado {
+  text-decoration: line-through;
+  color: gray;
+}
+
 .acciones {
   display: flex;
   gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btn-completar {
+  background-color: #f9a825;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 .btn-editar {
