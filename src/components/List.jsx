@@ -2,7 +2,7 @@ import Item from "./Item";
 
 function List({ items, deleteItem, editItem }) {
   return (
-    <ul>
+    <ul className="lista">
       {items.map((item) => (
         <Item
           key={item.id}

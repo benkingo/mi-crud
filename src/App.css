@@ -1,65 +1,92 @@
-.App {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
+body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-  border-radius: 10px;
+  background-color: #e5e7eb;
 }
 
-h1 {
+.app {
+  max-width: 650px;
+  margin: 40px auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 24px;
+}
+
+.titulo {
   text-align: center;
   color: #1e88e5;
+  margin-bottom: 24px;
 }
 
-form {
+.formulario {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
 }
 
-form input {
+.input-texto {
   flex: 1;
   padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
   font-size: 16px;
 }
 
-form button {
-  padding: 10px 16px;
+.input-texto:focus {
+  outline: none;
+  border-color: #1e88e5;
+}
+
+.btn-agregar {
   background-color: #1e88e5;
   color: white;
   border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
-ul {
+.lista {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
-li {
-  background-color: white;
-  padding: 12px;
-  margin-bottom: 10px;
-  border-radius: 8px;
+.item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
 }
 
-li button {
-  padding: 6px 10px;
+.texto-item {
+  font-size: 16px;
+  color: #1f2937;
+}
+
+.acciones {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-editar {
+  background-color: #43a047;
+  color: white;
   border: none;
+  padding: 8px 10px;
+  border-radius: 6px;
   cursor: pointer;
 }
 
-li button:first-of-type {
-  background-color: #43a047;
-  color: white;
-}
-
-li button:last-of-type {
+.btn-eliminar {
   background-color: #e53935;
   color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
 }
